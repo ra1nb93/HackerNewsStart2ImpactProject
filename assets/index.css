@@ -1,0 +1,35 @@
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+
+}
+.card {
+    border-radius: 10px; /* Bordi arrotondati */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombra sottile */
+
+
+    /* Altezza minima per adattarsi al contenuto */
+    min-height: 300px;
+    
+}
+
+.btn:hover {
+    font-weight: bolder; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Effetto ombra più accentuato all'hover */
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.5rem; /* Dimensione del titolo aumentata */
+}
+
+.card-text {
+    font-size: 1rem; /* Dimensione del testo del corpo */
+}
+
+.card img {
+    border-top-left-radius: 10px; /* Arrotondare solo l'angolo superiore sinistro dell'immagine */
+    border-top-right-radius: 10px; /* Arrotondare solo l'angolo superiore destro dell'immagine */
+    height: 200px; /* Altezza fissa per l'immagine */
+    object-fit: cover; /* Ridimensiona l'immagine per coprire l'intera area */
+}
