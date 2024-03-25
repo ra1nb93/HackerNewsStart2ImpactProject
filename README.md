@@ -1,20 +1,21 @@
 # Hacker News Web App
 
-## Introduzione
-Questa è una semplice web app che mostra le ultime notizie dal mondo della tecnologia, utilizzando l'API di Hacker News. Le notizie vengono visualizzate in una griglia, con immagini correlate ai titoli delle notizie quando disponibili.
+You can try it out here: https://ra1nb93.github.io/HackerNewsStart2ImpactProject/
 
-## Istruzioni di Utilizzo
-1. Clonare questo repository sul tuo computer.
-2. Aprire il file `index.html` in un browser web moderno.
-3. Le ultime notizie saranno visualizzate automaticamente.
-4. Cliccare sul pulsante "Load More" per caricare ulteriori notizie.
+## Introduction
+This is a simple web app that displays the latest news from the world of technology, using the Hacker News API. The news is displayed in a grid, with images related to the news headlines when available.
 
-## Configurazioni e Personalizzazioni
-- Il file HTML utilizza Bootstrap v5.3.2 per lo stile e la formattazione.
-- Il file CSS personalizzato si trova in `assets/index.css` e contiene personalizzazioni aggiuntive.
-- Il file JavaScript per il funzionamento della web app si trova in `assets/index.js`.
+## Usage Instructions
+1. Clone this repository to your computer.
+2. Open the `index.html` file in a modern web browser.
+3. The latest news will be displayed automatically.
+4. Click the "Load More" button to load additional news.
 
-## Risorse Aggiuntive
-- Per ulteriori informazioni sull'API di Hacker News, consultare la documentazione ufficiale: [Hacker News API](https://github.com/HackerNews/API).
-- Per maggiori dettagli su come utilizzare Bootstrap, visitare il sito ufficiale: [Bootstrap Documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/).
+## Configurations and Customizations
+- The HTML file uses Bootstrap v5.3.2 for styling and formatting.
+- The custom CSS file is located at `assets/index.css` and contains additional customizations.
+- The JavaScript file for the web app functionality is located at `assets/index.js`.
 
+## Additional Resources
+- For more information about the Hacker News API, refer to the official documentation: [Hacker News API](https://github.com/HackerNews/API).
+- For more details on how to use Bootstrap, visit the official website: [Bootstrap Documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/).
