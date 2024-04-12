@@ -1,4 +1,8 @@
-        document.addEventListener('DOMContentLoaded', () => {
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+            
             const newsContainer = document.getElementById('news-container');
             const loadMoreBtn = document.getElementById('load-more-btn');
             let startIndex = 0;
@@ -54,7 +58,7 @@
                                 <img src="${imageUrl}" class="align-self-center card-img-top" alt="image from Pexels">
                                 <div class="card-body">
                                     <h5 class="card-title">${item.title}</h5>
-                                    <a href="${item.url}" class="btn btn-info">Read</a>
+                                    <a href="${item.url}" class="btn btn-info">Read More</a>
                                     <p class="card-text mt-2">Date: ${new Date(item.time * 1000).toLocaleString()}</p>
                                 </div>
                             </div>`;
@@ -63,7 +67,7 @@
                             <div class="card mb-6">
                                 <div class="card-body">
                                     <h5 class="card-title">${item.title}"</h5>
-                                    <a href="${item.url}" class="btn btn-primary">Read</a>
+                                    <a href="${item.url}" class="btn btn-primary">Read More</a>
                                     <p class="card-text mt-6">Date: ${new Date(item.time * 1000).toLocaleString()}</p>
                                     
                                 </div>
