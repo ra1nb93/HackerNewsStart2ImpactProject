@@ -1,6 +1,6 @@
 # Hacker News Web App
 
-You can try it out here: https://ra1nb93.github.io/HackerNewsStart2ImpactProject/
+You can try it out here: https://hackernewsstart2impactproject.web.app
 
 ## Introduction
 This is a simple web app that displays the latest news from the world of technology, using the Hacker News API. The news is displayed in a grid, with images related to the news headlines when available.

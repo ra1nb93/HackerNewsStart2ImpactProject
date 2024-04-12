@@ -41,7 +41,7 @@ module.exports = {
                 },
             },
             {
-                test: /\.(png|svg|jpg|jpeg|gif)$/i,
+                test: /\.(png|svg|jpg|jpeg|gif|ico)$/i,
                 type: 'asset/resource',
             }
         ],
@@ -50,7 +50,8 @@ module.exports = {
         new HtmlWebpackPlugin({
             title: 'Hacker News',
             filename: 'index.html',
-            template: 'src/template.html'
+            template: 'src/template.html',
+            favicon: 'src/assets/favicon/favicon.ico'
         })
     ]
 } 
