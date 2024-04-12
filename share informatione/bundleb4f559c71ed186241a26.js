@@ -67,9 +67,9 @@ document.addEventListener('DOMContentLoaded', function () {
             case 4:
               imageUrl = _context.sent;
               if (imageUrl) {
-                newsItem.innerHTML = "\n                            <div class=\" card mb-6\">\n                                <img src=\"".concat(imageUrl, "\" class=\"align-self-center card-img-top\" alt=\"image from Pexels\">\n                                <div class=\"card-body\">\n                                    <h5 class=\"card-title\">").concat(item.title, "</h5>\n                                    <a href=\"").concat(item.url, "\" class=\"btn btn-info\">Read</a>\n                                    <p class=\"card-text mt-2\">Date: ").concat(new Date(item.time * 1000).toLocaleString(), "</p>\n                                </div>\n                            </div>");
+                newsItem.innerHTML = "\n                            <div class=\" card mb-6\">\n                                <img src=\"".concat(imageUrl, "\" class=\"align-self-center card-img-top\" alt=\"image from Pexels\">\n                                <div class=\"card-body\">\n                                    <h5 class=\"card-title\">").concat(item.title, "</h5>\n                                    <a href=\"").concat(item.url, "\" class=\"btn btn-info\">Read More</a>\n                                    <p class=\"card-text mt-2\">Date: ").concat(new Date(item.time * 1000).toLocaleString(), "</p>\n                                </div>\n                            </div>");
               } else {
-                newsItem.innerHTML = "\n                            <div class=\"card mb-6\">\n                                <div class=\"card-body\">\n                                    <h5 class=\"card-title\">".concat(item.title, "\"</h5>\n                                    <a href=\"").concat(item.url, "\" class=\"btn btn-primary\">Read</a>\n                                    <p class=\"card-text mt-6\">Date: ").concat(new Date(item.time * 1000).toLocaleString(), "</p>\n                                    \n                                </div>\n                                <hr>\n                            </div>");
+                newsItem.innerHTML = "\n                            <div class=\"card mb-6\">\n                                <div class=\"card-body\">\n                                    <h5 class=\"card-title\">".concat(item.title, "\"</h5>\n                                    <a href=\"").concat(item.url, "\" class=\"btn btn-primary\">Read More</a>\n                                    <p class=\"card-text mt-6\">Date: ").concat(new Date(item.time * 1000).toLocaleString(), "</p>\n                                    \n                                </div>\n                                <hr>\n                            </div>");
               }
               row.appendChild(newsItem);
             case 7:
@@ -102,4 +102,4 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 /******/ })()
 ;
-//# sourceMappingURL=bundleb8af1119ec09734cb962.js.map
+//# sourceMappingURL=bundleb4f559c71ed186241a26.js.map
